@@ -5,7 +5,6 @@
 ###
 
 result = []
-i = 0
 ARGV.each do |arg|
     # skip if not integer
     next if arg !~ /^-?[0-9]+$/
@@ -15,6 +14,7 @@ ARGV.each do |arg|
     
     # insert result at the right position
     is_inserted = false
+    i = 0
     l = result.size
     while !is_inserted && i < l do
         if result[i] < i_arg
