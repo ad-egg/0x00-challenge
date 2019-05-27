@@ -2,7 +2,7 @@
 """MODULE DOCSTRING"""
 
 
-class Square():
+class Square:
     """a Square class"""
 
     def __init__(self, *args, **kwargs):
